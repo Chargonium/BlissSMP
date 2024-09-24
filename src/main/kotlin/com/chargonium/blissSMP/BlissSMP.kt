@@ -2,7 +2,7 @@ package com.chargonium.blissSMP
 
 import com.chargonium.blissSMP.commands.getModelData
 import com.chargonium.blissSMP.commands.testItem
-import com.chargonium.blissSMP.events.rightclick
+import com.chargonium.blissSMP.events.onPlayerInteract
 import org.bukkit.Bukkit
 import org.bukkit.plugin.java.JavaPlugin
 
@@ -15,10 +15,13 @@ class BlissSMP : JavaPlugin() {
     override fun onEnable() {
         plugin = this
 
+        gems().initGems()
+
+
         this.getCommand("testItem")?.setExecutor(testItem());
         this.getCommand("getModelData")?.setExecutor(getModelData());
         Bukkit.getLogger().info("[BlissSMP] Plugin Succesfully Loaded!");
-        server.pluginManager.registerEvents(rightclick(), this)
+        server.pluginManager.registerEvents(onPlayerInteract(), this)
     }
 
     override fun onDisable() {
