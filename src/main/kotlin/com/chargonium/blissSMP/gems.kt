@@ -1,9 +1,11 @@
 package com.chargonium.blissSMP
 
 import com.chargonium.blissSMP.gemLogic.Speed
+import org.bukkit.Material
 
 class gems {
     companion object {
+        val gemItem: Material = Material.CLAY_BALL
         var all: Array<Array<Any?>?> =  arrayOfNulls(1)
         var speed: Array<Any?> = arrayOfNulls(2)
     }

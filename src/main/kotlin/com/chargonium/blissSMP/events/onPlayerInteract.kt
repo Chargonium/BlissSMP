@@ -22,7 +22,6 @@ class onPlayerInteract : Listener {
                 when (event.action) {
                     Action.RIGHT_CLICK_BLOCK, Action.RIGHT_CLICK_AIR -> { gemInstance.onRightClick(player) }
                     Action.LEFT_CLICK_BLOCK, Action.LEFT_CLICK_AIR -> { gemInstance.onLeftClick(player) }
-
                     else -> {}
                 }
             }
