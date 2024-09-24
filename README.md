@@ -3,8 +3,9 @@
 This is a WIP bliss smp gem, i plan on adding everything they have in the original series.
 
 
-## TODO:
+## TODO: 
 
+- [ ] Remove initial testing stuff
 - [ ] Strength gem
 - [ ] Wealth gem
 - [ ] Speed gem
