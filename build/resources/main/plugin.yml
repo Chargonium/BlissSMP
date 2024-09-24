@@ -1,0 +1,11 @@
+name: BlissSMP
+version: '1.0-SNAPSHOT'
+main: com.chargonium.blissSMP.BlissSMP
+api-version: '1.19'
+commands:
+  testItem:
+    description: Gives a test item
+    usage: /testItem
+  getModelData:
+    description: gets the model data of the currently held item
+    usage: /getModelData (While holding a valid gem)
