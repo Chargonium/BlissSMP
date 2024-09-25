@@ -8,7 +8,7 @@ This is a WIP bliss smp gem, i plan on adding everything they have in the origin
 - [ ] Remove initial testing stuff
 - [ ] Strength gem
 - [ ] Wealth gem
-- [ ] Speed gem
+- [x] Speed gem
 - [ ] Puff gem
 - [ ] Life gem
 - [ ] Fire gem
