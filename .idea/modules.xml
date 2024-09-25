@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/BlissSMP.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BlissSMP.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.chargonium.BlissSMP.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.chargonium.BlissSMP.main.iml" />
     </modules>
   </component>
 </project>

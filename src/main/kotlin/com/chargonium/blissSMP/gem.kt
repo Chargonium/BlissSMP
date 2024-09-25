@@ -7,4 +7,5 @@ interface gem {
     fun passiveEffect(player: Player)
     fun onLeftClick(player: Player)
     fun onRightClick(player: Player)
+    fun onPlayerMove(player: Player)
 }

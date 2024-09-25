@@ -27,6 +27,10 @@ class updatePassiveEffects : BukkitRunnable() {
                 val gemInstance: gem = gems.speed[1] as gem
                 gemInstance.passiveEffect(player)
             }
+            gems.strength[0] -> {
+                val gemInstance: gem = gems.strength[1] as gem
+                gemInstance.passiveEffect(player)
+            }
         }
     }
 }
