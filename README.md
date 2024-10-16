@@ -2,6 +2,7 @@
 
 This is a WIP bliss smp gem, i plan on adding everything they have in the original series.
 
+I plan on uploading this to spigot & bukkit if i ever finish it.
 
 ## TODO: 
 
